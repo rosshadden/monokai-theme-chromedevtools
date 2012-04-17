@@ -203,6 +203,10 @@ Darcy Clarke:							 									http://darcyclarke.me/design/skin-your-chrome-insp
 	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
 
+.editing {
+	color: #c1c1c1 !important;
+}
+
 
 /* SCRIPTS
 ----------------------------------------------------------------------------------------------------------*/
