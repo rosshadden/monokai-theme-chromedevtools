@@ -7,16 +7,22 @@ Author: Béres Máté Csaba / bjmatt.com / @bjmatt / beres.mate@bjmatt.com
 Installation: 
 
 1. Find your Chrome's user stylesheet's directory, for example in win7:
-			"c:\Users\***YOUR USERNAME***\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\"
+"c:\Users\***YOUR USERNAME***\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\"
+
 2. Replace the existing "Custom.css" file with this one
+
 3. No restart needed, changes are applied immediately	 
 -----------------------------------------------------------------------------------------------------------
 
 Inspired by:
 
 Monokai color scheme (slightly modified)
-Ben Truyman's IR_Black Skin: 								https://gist.github.com/1150520
-Darcy Clarke:							 									http://darcyclarke.me/design/skin-your-chrome-inspector
+
+Ben Truyman's IR_Black Skin: 								
+https://gist.github.com/1150520
+
+Darcy Clarke:							 									
+http://darcyclarke.me/design/skin-your-chrome-inspector
 ----------------------------------------------------------------------------------------------------------*/
 
 
@@ -65,28 +71,33 @@ Darcy Clarke:							 									http://darcyclarke.me/design/skin-your-chrome-insp
 #storage-views .webkit-css-comment,
 #elements-content .webkit-css-comment,
 #network-views .webkit-css-comment,
-.resources .script-view .webkit-css-comment {
+.resources .script-view .webkit-css-comment,
+.console-message .webkit-css-comment {
 	color: #75715E !important;
 }
 
 #storage-views .webkit-html-tag,
 #elements-content .webkit-html-tag,
 #network-views .webkit-html-tag,
-.resources .script-view .webkit-html-tag {
+.resources .script-view .webkit-html-tag,
+.console-message .webkit-html-tag,
+ .console-message .webkit-html-tag-name {
 	color: #F92672 !important;
 }
 
 #storage-views .webkit-html-attribute-name,
 #elements-content .webkit-html-attribute-name,
 #network-views .webkit-html-attribute-name,
-.resources .script-view .webkit-html-attribute-name {
+.resources .script-view .webkit-html-attribute-name,
+.console-message .webkit-html-attribute-name {
 	color: #A6E22E !important;
 }
 
 #storage-views .webkit-html-attribute-value,
 #elements-content .webkit-html-attribute-value,
 #network-views .webkit-html-attribute-value,
-.resources .script-view .webkit-html-attribute-value {
+.resources .script-view .webkit-html-attribute-value,
+.console-message .webkit-html-attribute-value {
 	color: #E6DB74 !important;
 }
 
@@ -115,7 +126,8 @@ Darcy Clarke:							 									http://darcyclarke.me/design/skin-your-chrome-insp
 #storage-views .webkit-html-external-link,
 #elements-content .webkit-html-external-link,
 #network-views .webkit-html-external-link,
-.resources .script-view .webkit-html-external-link {
+.resources .script-view .webkit-html-external-link,
+.console-message .webkit-html-external-link {
 	color: #A6E22E !important;
 }
 
