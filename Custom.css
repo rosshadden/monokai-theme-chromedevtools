@@ -215,7 +215,7 @@ http://darcyclarke.me/design/skin-your-chrome-inspector
 	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
 
-.editing {
+#elements-content .editing {
 	color: #c1c1c1 !important;
 }
 
