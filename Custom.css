@@ -72,7 +72,8 @@ http://darcyclarke.me/design/skin-your-chrome-inspector
 #elements-content .webkit-css-comment,
 #network-views .webkit-css-comment,
 .resources .script-view .webkit-css-comment,
-.console-message .webkit-css-comment {
+.console-message .webkit-css-comment,
+.console-message .webkit-html-comment {
 	color: #75715E !important;
 }
 
@@ -104,11 +105,12 @@ http://darcyclarke.me/design/skin-your-chrome-inspector
 #storage-views .webkit-html-text-node,
 #elements-content .webkit-html-text-node,
 #network-views .webkit-html-text-node,
-.resources .script-view .webkit-html-text-node
+.resources .script-view .webkit-html-text-node,
 #storage-views .webkit-html-css-node,
 #elements-content .webkit-html-css-node,
 #network-views .webkit-html-css-node,
-.resources .script-view .webkit-html-css-node {
+.resources .script-view .webkit-html-css-node,
+.console-message .webkit-html-text-node {
 	color: #c1c1c1 !important;
 }
 
